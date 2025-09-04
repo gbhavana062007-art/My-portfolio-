@@ -1,0 +1,239 @@
+/* Reset */
+
+* {
+
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+
+}
+
+body {
+
+  background: #f5f5f5;
+
+  color: #333;
+
+}
+
+.container {
+
+  display: flex;
+
+  max-width: 1100px;
+
+  margin: 40px auto;
+
+  background: #fff;
+
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+  border-radius: 8px;
+
+  overflow: hidden;
+
+}
+
+/* Sidebar */
+
+.sidebar {
+
+  width: 30%;
+
+  background: #4b2c5e;
+
+  color: #fff;
+
+  padding: 30px;
+
+  text-align: center;
+
+}
+
+.sidebar img {
+
+  width: 140px;
+
+  height: 140px;
+
+  border-radius: 50%;
+
+  object-fit: cover;
+
+  margin-bottom: 15px;
+
+}
+
+.sidebar h1 {
+
+  font-size: 22px;
+
+  margin-bottom: 5px;
+
+}
+
+.sidebar h3 {
+
+  font-size: 16px;
+
+  font-weight: normal;
+
+  margin-bottom: 20px;
+
+}
+
+.contact-info p {
+
+  margin: 8px 0;
+
+  font-size: 14px;
+
+}
+
+/* Content */
+
+.content {
+
+  width: 70%;
+
+  padding: 40px;
+
+}
+
+.content section {
+
+  margin-bottom: 30px;
+
+}
+
+.content h2 {
+
+  font-size: 20px;
+
+  color: #4b2c5e;
+
+  margin-bottom: 10px;
+
+  border-bottom: 2px solid #4b2c5e;
+
+  display: inline-block;
+
+  padding-bottom: 4px;
+
+}
+
+.content p, .content li {
+
+  font-size: 15px;
+
+  line-height: 1.6;
+
+}
+
+/* Skills */
+
+#skills ul {
+
+  list-style: none;
+
+}
+
+#skills ul li {
+
+  background: #e0d7f5;
+
+  display: inline-block;
+
+  margin: 5px;
+
+  padding: 8px 12px;
+
+  border-radius: 6px;
+
+  font-size: 14px;
+
+}
+
+/* Projects */
+
+.project {
+
+  margin-bottom: 15px;
+
+}
+
+.project h3 {
+
+  font-size: 18px;
+
+  margin-bottom: 5px;
+
+  color: #333;
+
+}
+
+/* Contact Form */
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+}
+
+form input, form textarea {
+
+  margin: 8px 0;
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 6px;
+
+  font-size: 14px;
+
+}
+
+form button {
+
+  padding: 10px;
+
+  background: #4b2c5e;
+
+  color: #fff;
+
+  border: none;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+form button:hover {
+
+  background: #371f47;
+
+}
+
+/* Footer */
+
+footer {
+
+  text-align: center;
+
+  margin: 20px 0;
+
+  font-size: 14px;
+
+  color: #666;
+
+}
